@@ -39,6 +39,7 @@ body{
     inset: 10px;
     background: #282828;
     border-radius: 10px;
+    border-top-left-radius: 70px;
 }
 .container .card .box .icon{
     position: absolute;
@@ -49,6 +50,7 @@ body{
     transition: 0.5s;
 }
 .container .card:hover .box .icon{
+    border-top-left-radius: 50%;
     width: 100%;
 }
 .container .card .box .icon::before{
